@@ -62,7 +62,7 @@ def test_ul():
 
 
 def test_inline_ul():
-    assert md('<p>foo</p><ul><li>a</li><li>b</li></ul><p>bar</p>') == 'foo\n\n* a\n* b\n\nbar\n\n'
+    assert md('<p>foo</p><ul><li>a</li><li>b</li></ul><p>bar</p>') == 'foo\n* a\n* b\n\nbar\n'
 
 
 def test_nested_uls():
